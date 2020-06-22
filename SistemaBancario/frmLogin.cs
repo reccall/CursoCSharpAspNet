@@ -17,9 +17,14 @@ namespace SistemaBancario
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BtnAcessar_Click(object sender, EventArgs e)
+        {
+            //
         }
     }
 }
