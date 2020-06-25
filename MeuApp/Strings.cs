@@ -16,7 +16,7 @@ namespace MeuApp
             string caminhoDeArquivoComEscape = "c:\\Program Files\nMicrosoft Visual Studio 8.0";
             string caminhoComLiterals = @"c:\Program Files\Microsoft Visual Studio 9.0";
             
-            char[] letras = { 'M', 'A', 'Ç', 'A' };
+            char[] letras = { 'M', 'A', 'Ç', 'A','S'};
             
             string novaPalavra = new string(letras);
 
