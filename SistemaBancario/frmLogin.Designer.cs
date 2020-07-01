@@ -33,7 +33,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnAcessar = new System.Windows.Forms.Button();
-            this.BtnCancelar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,24 +79,25 @@
             this.btnAcessar.TabIndex = 4;
             this.btnAcessar.Text = "Acessar";
             this.btnAcessar.UseVisualStyleBackColor = true;
-            this.btnAcessar.Click += new System.EventHandler(this.BtnAcessar_Click);
+            this.btnAcessar.Click += new System.EventHandler(this.btnAcessar_Click);
             // 
-            // BtnCancelar
+            // btnCancelar
             // 
-            this.BtnCancelar.Location = new System.Drawing.Point(165, 136);
-            this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(81, 35);
-            this.BtnCancelar.TabIndex = 5;
-            this.BtnCancelar.Text = "Cancelar";
-            this.BtnCancelar.UseVisualStyleBackColor = true;
-            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(165, 136);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(81, 35);
+            this.btnCancelar.TabIndex = 5;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.btnAcessar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(318, 201);
-            this.Controls.Add(this.BtnCancelar);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAcessar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
@@ -118,7 +119,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnAcessar;
-        private System.Windows.Forms.Button BtnCancelar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
 
